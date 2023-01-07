@@ -1,14 +1,54 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Text Input Form</title>
-</head>
-<body>
-  <h1>Text Input Form</h1>
-  <form id="form" action="send-text.php" method="POST">
-    <label for="text-input">Enter some text:</label><br>
-    <input type="text" id="text-input" name="text-input"><br>
-    <input type="submit" value="Send">
-  </form>
-</body>
+  <head>
+    <title>My Page</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .poem {
+        margin: 20px;
+        padding: 20px;
+        background-color: #eee;
+        border-radius: 10px;
+      }
+      .heart-button {
+        display: inline-block;
+        background-color: #ff0000;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Page</h1>
+    <p>Hello and thank you for visiting my page. I hope you find the information here useful and interesting.</p>
+    <div class="poem">
+      <p>
+        Shrek was feeling mighty fine,<br>
+        He cracked open a cold, crisp Pepsi,<br>
+        He took a big gulp, then let out a sigh,<br>
+        Ahh, that hit the spot, he said with a smile.
+      </p>
+      <p>
+        He was feeling refreshed and renewed,<br>
+        His thirst quenched, his spirit imbued,<br>
+        He knew that with Pepsi by his side,<br>
+        He could take on the world with pride.
+      </p>
+      <p>
+        So if you're feeling tired or down,<br>
+        Just crack open a Pepsi, it'll turn your day around,<br>
+        It's the drink that refreshes and renews,<br>
+        Just like it did for Shrek and his blues.
+      </p>
+    </div>
+    <button class="heart-button">❤</button>
+  </body>
 </html>
